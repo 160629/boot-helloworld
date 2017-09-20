@@ -12,8 +12,7 @@ public class Application {
 
 	@RequestMapping("/hello/{name}/index")
 	public String greeting(@PathVariable String name) {
-		System.out.println(name);
-		return name+"Hello World!";
+		return name+"Hello World2!";
 	}
 
 	public static void main(String[] args) {
