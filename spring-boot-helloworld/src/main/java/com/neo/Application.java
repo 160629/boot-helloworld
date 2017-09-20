@@ -12,7 +12,7 @@ public class Application {
 
 	@RequestMapping("/hello/{name}/index")
 	public String greeting(@PathVariable String name) {
-		return name+"Hello World2!";
+		return name+"Hello World!";
 	}
 
 	public static void main(String[] args) {
